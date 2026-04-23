@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>親子探險家 - 為您挑選最具科學背景的成長場域</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Instrument+Serif:italic@0,1&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand-primary: #6A4040;
+            --brand-secondary: #B78F8A;
+            --brand-bg: #FAF9F7;
+        }
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: var(--brand-bg);
+            color: #3E2525;
+        }
+        .serif {
+            font-family: 'Instrument Serif', serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #F5F1F0 0%, #E9DDDB 100%);
+        }
+        .btn-primary {
+            background-color: var(--brand-primary);
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #5B3535;
+            transform: translateY(-2px);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(106, 64, 64, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-[#6A4040] flex items-center gap-2">
+                <span class="text-3xl">🧭</span> 親子探險家
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#services" class="hover:text-[#B78F8A]">合作業務</a>
+                <a href="#about" class="hover:text-[#B78F8A]">關於我們</a>
+                <a href="#offers" class="hover:text-[#B78F8A]">限時優惠</a>
+            </nav>
+            <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="btn-primary px-6 py-2 rounded-full text-sm font-bold">
+                加入 LINE 領取優惠
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                陪孩子在<span class="serif italic text-[#B78F8A]">科學</span>中<br>勇敢探險
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                「親子探險家」專為重視教育質感的父母，篩選具備良好科學背景的場地與營隊。我們作為中介，為您與孩子爭取最優質的體驗與專屬優惠。
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="btn-primary px-10 py-4 rounded-xl text-lg font-bold">
+                    探索最新業務配合
+                </a>
+                <a href="#services" class="bg-white border-2 border-[#6A4040] text-[#6A4040] px-10 py-4 rounded-xl text-lg font-bold hover:bg-gray-50">
+                    查看合作類別
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">我們嚴選的合作領域</h2>
+                <p class="text-gray-500">所有場地均經過科學教育背景審核，確保孩子玩得開心、學得紮實。</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="card-hover p-8 rounded-2xl bg-[#FAF9F7] border border-gray-100">
+                    <div class="text-4xl mb-4">🏞️</div>
+                    <h3 class="text-xl font-bold mb-2">親子場地</h3>
+                    <p class="text-sm text-gray-600 mb-4">嚴選五感開發與自然探索場域，讓環境成為孩子最好的老師。</p>
+                    <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="text-[#6A4040] font-bold text-sm hover:underline">查看場地名單 →</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="card-hover p-8 rounded-2xl bg-[#FAF9F7] border border-gray-100">
+                    <div class="text-4xl mb-4">🎡</div>
+                    <h3 class="text-xl font-bold mb-2">遊樂園</h3>
+                    <p class="text-sm text-gray-600 mb-4">不只是遊樂，結合科學原理的設施，讓孩子在尖叫中學習物理。</p>
+                    <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="text-[#6A4040] font-bold text-sm hover:underline">領取門票優惠 →</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="card-hover p-8 rounded-2xl bg-[#FAF9F7] border border-gray-100">
+                    <div class="text-4xl mb-4">🏫</div>
+                    <h3 class="text-xl font-bold mb-2">親子學校</h3>
+                    <p class="text-sm text-gray-600 mb-4">對接具備最新科學教研背景的學校，提供試聽與報名折扣。</p>
+                    <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="text-[#6A4040] font-bold text-sm hover:underline">了解課程體系 →</a>
+                </div>
+                <!-- Card 4 -->
+                <div class="card-hover p-8 rounded-2xl bg-[#FAF9F7] border border-gray-100">
+                    <div class="text-4xl mb-4">⛺</div>
+                    <h3 class="text-xl font-bold mb-2">夏令營</h3>
+                    <p class="text-sm text-gray-600 mb-4">專題式科學夏令營，從實驗到實作，培養解決問題的能力。</p>
+                    <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="text-[#6A4040] font-bold text-sm hover:underline">報名早鳥優惠 →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="about" class="py-20 gradient-bg">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold mb-6">為什麼選擇「親子探險家」？</h2>
+                <ul class="space-y-6">
+                    <li class="flex gap-4">
+                        <span class="text-2xl text-[#6A4040]">✔</span>
+                        <div>
+                            <h4 class="font-bold">科學背景嚴選</h4>
+                            <p class="text-gray-600">我們拒絕沒有教育內涵的場地，只合作具備科學實證基礎的機構。</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-2xl text-[#6A4040]">✔</span>
+                        <div>
+                            <h4 class="font-bold">專屬父母優惠</h4>
+                            <p class="text-gray-600">作為中介，我們直接與廠商對談，將省下的廣告預算轉為您的折扣。</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="text-2xl text-[#6A4040]">✔</span>
+                        <div>
+                            <h4 class="font-bold">雙贏透明機制</h4>
+                            <p class="text-gray-600">商家獲得穩定客群，父母獲得優質服務與低價，打造良性親子生態。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="md:w-1/2 bg-white p-10 rounded-3xl shadow-xl">
+                <p class="text-xl italic text-gray-700 leading-relaxed">
+                    「我們相信，每一次的玩樂都是一場小型的科學實驗。親子探險家的任務，就是幫爸媽找好實驗室。」
+                </p>
+                <div class="mt-6 flex items-center gap-4">
+                    <div class="w-12 h-12 bg-[#6A4040] rounded-full flex items-center justify-center text-white">探</div>
+                    <div>
+                        <p class="font-bold">創辦人</p>
+                        <p class="text-sm text-gray-500">親子探險家團隊</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="offers" class="py-20">
+        <div class="container mx-auto px-6 text-center bg-[#6A4040] text-white p-16 rounded-[40px]">
+            <h2 class="text-4xl font-bold mb-6">立即加入 LINE 獲取本月合作優惠</h2>
+            <p class="text-xl opacity-80 mb-10">搶先獲取遊樂園買一送一、夏令營早鳥 7 折等專屬親子福利。</p>
+            <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="bg-white text-[#6A4040] px-12 py-5 rounded-2xl text-xl font-bold hover:bg-gray-100 transition-colors inline-block">
+                立即點擊跳轉 LINE
+            </a>
+            <p class="mt-6 text-sm opacity-60">點擊後將直接連結至我們的官方服務帳號</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-200">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-xl font-bold text-[#6A4040] mb-4">親子探險家</div>
+            <p class="text-gray-500 text-sm mb-6">致力於打造最科學、最有溫度的親子合作平台</p>
+            <div class="flex justify-center space-x-6 text-sm text-gray-400">
+                <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="hover:text-[#6A4040]">服務條款</a>
+                <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="hover:text-[#6A4040]">隱私權政策</a>
+                <a href="https://line.me/ti/p/qJsUZbfUJL" target="_blank" class="hover:text-[#6A4040]">聯繫我們</a>
+            </div>
+            <p class="mt-8 text-xs text-gray-300">© 2026 親子探險家. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
